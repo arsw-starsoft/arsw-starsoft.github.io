@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Synchdrive
 
-You can use the [editor on GitHub](https://github.com/arsw-starsoft/arsw-starsoft.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Indice
+* [Resumen](#resumen)
+* [Arquitectura Backend](#arquitectura-backend)
+* [Arquitectura Frontend](#arquitectura-frontend)
+* [Arquitectura Despliegue](#arquitectura-despliegue)
+* [Continuidad de desarrollo - Github](#continuidad-de-desarrollo---github)
+* [Despliegue - Heroku](#despliegue---heroku)
+* [Manual de Uso](#manual-de-uso)
+* [Estado del Backend](#estado-del-backend)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Resumen
+Actualmente se ofrece una gran variedad de aplicaciones que proporcionan el servicio de transporte contactando a los pasajeros con los vehículos registrados en sus plataformas. Esto resulta beneficioso tanto para el conductor generando utilidades con su automóvil, como para el pasajero que pueden viajar a gusto. El problema radica en que la mayoría de los conductores y usuarios manejan dos o más de las aplicaciones móviles disponibles, les resulta tedioso tener que abrir y cerrar las aplicaciones, en el caso de los usuarios para comparar precios, servicios y solicitar diversos servicios, como para los conductores a la hora de buscar y aceptar los servicios. Tomando en cuenta esta problemática surgió Synchdrive una aplicación web en donde los diferentes usuarios podrán interactuar con las diferentes aplicaciones de transporte en las que estén registrados para poder así tomar la mejor decisión en cuanto al servicio que se requiera según el caso.
 
-### Markdown
+### Arquitectura Backend
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Arquitectura Frontend
 
-```markdown
-Syntax highlighted code block
+### Arquitectura Despliegue
 
-# Header 1
-## Header 2
-### Header 3
+### Continuidad de desarrollo - Github
+El proyecto se está desarrollando en la organización [arsw-starsoft](http://github.com/arsw-starsoft)
 
-- Bulleted
-- List
+### Despliegue - Heroku
+El despliegue se realizo en [Heroku](arswsynchdrive.herokuapp.com)
 
-1. Numbered
-2. List
+### Manual de Uso
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Estado del Backend
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7e83bd6874c943bb97de8bf5825f082d)](https://www.codacy.com/manual/JulianBenitez99/Synchdrive-Backend?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arsw-starsoft/Synchdrive-Backend&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/arsw-starsoft/Synchdrive-Backend.svg?style=svg)](https://circleci.com/gh/arsw-starsoft/Synchdrive-Backend)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arsw-starsoft/arsw-starsoft.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+El backend se está desarrollando en el siguiente [repositorio](https://github.com/arsw-starsoft/Synchdrive-Backend)
