@@ -39,6 +39,16 @@ Actualmente se ofrece una gran variedad de aplicaciones que proporcionan el serv
 
 ## Arquitectura Frontend
 
+### Diagrama de Clases - Modelo
+![](/img/uber/clases.png)
+
+### Diagrama de Entidad-Relación
+![](/img/uber/entidad-relacion.png)
+
+### Diagrama de Componentes
+![](/img/uber/componentsSD.png)
+
+
 
 ## Arquitectura Despliegue
 ![](/img/deployment.png)
