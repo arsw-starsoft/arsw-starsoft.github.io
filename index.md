@@ -48,7 +48,7 @@ El backend se está desarrollando en el siguiente [repositorio](https://github.c
 ![](/img/uber/entidad-relacion.png)
 
 ### Diagrama de Componentes - Uber
-![](/img/uber/componentsUB.png)
+![](/img/uber/componentsUB.PNG)
 
 
 
