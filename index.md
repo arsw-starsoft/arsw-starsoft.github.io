@@ -37,7 +37,6 @@ Actualmente se ofrece una gran variedad de aplicaciones que proporcionan el serv
 
 ## Arquitectura Backend - Uber
 
-## Arquitectura Frontend
 
 ### Diagrama de Clases - Modelo
 ![](/img/uber/clases.png)
@@ -48,6 +47,8 @@ Actualmente se ofrece una gran variedad de aplicaciones que proporcionan el serv
 ### Diagrama de Componentes
 ![](/img/uber/componentsSD.png)
 
+
+## Arquitectura Frontend
 
 
 ## Arquitectura Despliegue
