@@ -70,7 +70,7 @@ El backend se está desarrollando en el siguiente [repositorio](https://github.c
 El proyecto se está desarrollando en la organización [arsw-starsoft](http://github.com/arsw-starsoft)
 
 ## Despliegue - Heroku
-El despliegue se realizó en [Heroku](arswsynchdrive.herokuapp.com)
+El despliegue se realizó en [Heroku](https://arswsynchdrive.herokuapp.com)
 
 ## Manual de Uso
 
