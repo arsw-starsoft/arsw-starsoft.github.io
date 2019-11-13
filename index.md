@@ -15,6 +15,10 @@
     * [Diagrama de Clases - Modelo - Uber](#diagrama-de-clases---modelo-uber)
     * [Diagrama de Entidad-Relación - Uber](#diagrama-de-entidad-relación---uber)
     * [Diagrama de Componentes - Uber](#diagrama-de-componentes---uber)
+* [Arquitectura Backend - Beat](#arquitectura-backend---beat)
+    * [Diagrama de Componentes - Beat](#diagrama-de-componentes---Beat)
+* [Arquitectura Backend - Didi](#arquitectura-backend---didi)
+    * [Diagrama de Componentes - Didi](#diagrama-de-componentes---didi)
 * [Arquitectura Frontend](#arquitectura-frontend)
 * [Arquitectura Despliegue](#arquitectura-despliegue)
 * [Diagrama de Casos de uso](#diagrama-de-casos-de-uso)
@@ -51,7 +55,17 @@ El backend se está desarrollando en el siguiente [repositorio](https://github.c
 ![](/img/uber/componentsUB.PNG)
 
 
+## Arquitectura Backend - Beat
 
+### Diagrama de Componentes - Beat
+
+![](/img/beat/beatcomp.png)
+
+## Arquitectura Backed - Didi
+
+### Diagrama de Componentes - Didi
+
+![](/img/didi/didicomp.png)
 
 
 ## Arquitectura Frontend
