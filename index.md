@@ -22,6 +22,11 @@
 * [Arquitectura Frontend](#arquitectura-frontend)
 * [Arquitectura Despliegue](#arquitectura-despliegue)
 * [Diagrama de Casos de uso](#diagrama-de-casos-de-uso)
+* [Atributos No Funcionales](#atributos-no-funcionales)
+    * [Usabilidad](#usabilidad)
+    * [Escalabilidad](#escalabilidad)
+    * [Disponibilidad](#disponibilidad)
+    * [Rendimiento (Performance)](#rendimiento)
 * [Continuidad de desarrollo - Github](#continuidad-de-desarrollo---github)
 * [Despliegue - Heroku](#despliegue---heroku)
 * [Manual de Uso](#manual-de-uso)
@@ -78,6 +83,28 @@ El backend se está desarrollando en el siguiente [repositorio](https://github.c
 
 ### Diagrama de casos de uso
 ![](/img/casosUso.png)
+
+## Atributos No Funcionales
+
+### Usabilidad
+
+### Escalabilidad
+
+#### Escenarios 
+1. Vertical: 
+
+2. Horizontal:
+
+### Disponibilidad
+
+#### Escenarios 
+
+1.
+
+2.
+
+
+### Rendimiento (Performance)
 
 
 ## Continuidad de desarrollo - Github
