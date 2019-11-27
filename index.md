@@ -96,6 +96,12 @@ Escenarios de pedir/aceptar servicios.
 5. **Response:** Es sencillo, tanto para pedir como aceptar servicios, a cada tipo de usuario.
 6. **Response Measure:** El conductor realiza 1 click para aceptar un servicio. El usuario, después de configurar sus preferencias y destino, realiza 1 click para solicitar el servicio.
 
+Escenario
+ 
+![](gifs/usability1.mp4)
+
+
+
 ### Escalabilidad
 
 #### Escenarios 
