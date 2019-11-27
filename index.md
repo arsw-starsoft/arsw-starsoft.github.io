@@ -40,49 +40,49 @@ Actualmente se ofrece una gran variedad de aplicaciones que proporcionan el serv
 ## Arquitectura Backend - Synchdrive
 El backend se está desarrollando en el siguiente [repositorio](https://github.com/arsw-starsoft/Synchdrive-Backend)
 ### Diagrama de Clases - Modelo
-![](/img/backend/clases.png)
+![](img/backend/clases.png)
 
 ### Diagrama de Entidad-Relación
-![](/img/backend/entidad-relacion.png)
+![](img/backend/entidad-relacion.png)
 
 ### Diagrama de Componentes
-![](/img/backend/componentsSD.png)
+![](img/backend/componentsSD.png)
 
 ## Arquitectura Backend - Uber
 El backend se está desarrollando en el siguiente [repositorio](https://github.com/arsw-starsoft/Uber-Backend)
 ### Diagrama de Clases - Modelo - Uber
-![](/img/uber/clases.png)
+![](img/uber/clases.png)
 
 ### Diagrama de Entidad-Relación - uber
-![](/img/uber/entidad-relacion.png)
+![](img/uber/entidad-relacion.png)
 
 ### Diagrama de Componentes - Uber
-![](/img/uber/componentsUB.PNG)
+![](img/uber/componentsUB.PNG)
 
 
 ## Arquitectura Backend - Beat
 
 ### Diagrama de Componentes - Beat
 
-![](/img/beat/beatcomp.png)
+![](img/beat/beatcomp.png)
 
 ## Arquitectura Backed - Didi
 
 ### Diagrama de Componentes - Didi
 
-![](/img/didi/didicomp.png)
+![](img/didi/didicomp.png)
 
 
 ## Arquitectura Frontend
 
-![](/img/frontend/componentsFE.png)
+![](img/frontend/componentsFE.png)
 
 
 ## Arquitectura Despliegue
-![](/img/deployment.png)
+![](img/deployment.png)
 
 ### Diagrama de casos de uso
-![](/img/casosUso.png)
+![](img/casosUso.png)
 
 ## Atributos No Funcionales
 
@@ -97,28 +97,83 @@ Escenarios de pedir/aceptar servicios.
 6. **Response Measure:** El conductor realiza 1 click para aceptar un servicio. El usuario, después de configurar sus preferencias y destino, realiza 1 click para solicitar el servicio.
 
 Escenario
- 
-![](gifs/usability1.mp4)
 
+![](gifs/usability1.gif)
 
+Escenarios de visualización de historial de servicios.
+1. **Source:** Usuario final (Conductor/Usuario del aplicativo).
+2. **Stimulus:** Verificar que el sistema haya registrado correctamente la toma de un servicio.
+3. **Artifact:** Servidores Frontend, servidor backend, servidores de bases de datos.
+4. **Enviroment:** Aplicación ejecutandose en condiciones normales.
+5. **Response:** Facilidad para identificar los servicios que se han aceptado/pedido.
+6. **Response Measure:** Tanto el usuario como el conductor ingresan con un click a sus historiales.
+
+Escenario Conductor
+
+![](gifs/usabilityD2.gif)
+
+Escenario Usuario
+
+![](gifs/usabilityU2.gif)
 
 ### Escalabilidad
-
 #### Escenarios 
-1. Vertical: 
+1. **Vertical:**
+Escenario de escalamiento vertical para la base de datos de la aplicación principal.
+    1. **Source:**
+    2. **Stimulus:**
+    3. **Artifact:**
+    4. **Enviroment:**
+    5. **Response:** 
+    6. **Response Measure:** 
 
-2. Horizontal:
+2. **Horizontal:**
+Escenario de escalamiento horizontal para servidor externo "Uber".
+    1. **Source:**
+    2. **Stimulus:**
+    3. **Artifact:**
+    4. **Enviroment:**
+    5. **Response:** 
+    6. **Response Measure:** 
 
 ### Disponibilidad
-
 #### Escenarios 
+Escenario de escalamiento horizontal para servidor externo "Uber".
 
-1.
+1. **Source:**
+2. **Stimulus:**
+3. **Artifact:**
+4. **Enviroment:**
+5. **Response:** 
+6. **Response Measure:**
 
-2.
+---
+
+1. **Source:**
+2. **Stimulus:**
+3. **Artifact:**
+4. **Enviroment:**
+5. **Response:** 
+6. **Response Measure:**
 
 
 ### Rendimiento (Performance)
+#### Escenarios
+ ---
+1. **Source:**
+2. **Stimulus:**
+3. **Artifact:**
+4. **Enviroment:**
+5. **Response:** 
+6. **Response Measure:**
+
+ ---
+1. **Source:**
+2. **Stimulus:**
+3. **Artifact:**
+4. **Enviroment:**
+5. **Response:** 
+6. **Response Measure:**
 
 
 ## Continuidad de desarrollo - Github
