@@ -87,6 +87,14 @@ El backend se está desarrollando en el siguiente [repositorio](https://github.c
 ## Atributos No Funcionales
 
 ### Usabilidad
+#### Escenarios
+Escenarios de pedir/aceptar servicios.
+1. **Source:** Usuario final (Conductor/Usuario del aplicativo).
+2. **Stimulus:** Usar el sistema eficientemente.
+3. **Artifact:** Servidores Frontend, servidor backend, servidores de bases de datos, servidores de aplicativos externos.
+4. **Enviroment:** Aplicación ejecutandose en condiciones normales.
+5. **Response:** Es sencillo, tanto para pedir como aceptar servicios, a cada tipo de usuario.
+6. **Response Measure:** El conductor realiza 1 click para aceptar un servicio. El usuario, después de configurar sus preferencias y destino, realiza 1 click para solicitar el servicio.
 
 ### Escalabilidad
 
