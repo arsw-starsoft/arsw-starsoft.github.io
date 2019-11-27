@@ -117,37 +117,47 @@ Escenario Usuario
 ![](gifs/usabilityU2.gif)
 
 ### Escalabilidad
+
+![](img/deployment-scale.png)
+
 #### Escenarios 
 1. **Vertical:**
 Escenario de escalamiento vertical para la base de datos de la aplicación principal.
-    1. **Source:**
-    2. **Stimulus:**
-    3. **Artifact:**
-    4. **Enviroment:**
-    5. **Response:** 
-    6. **Response Measure:** 
+    1. **Source:** Usuarios finales.
+    2. **Stimulus:** Al momento de solicitar servicios.
+    3. **Artifact:** Servidor Backend, Servidores Frontend, servidor de base de datos.
+    4. **Enviroment:** En condiciones de ejecución normales.
+    5. **Response:** Se guardan los servicios generados en la base de datos.
+    6. **Response Measure:** La respuesta del servidor es <> más rápida con el escalamiento vertical.
+
 
 2. **Horizontal:**
 Escenario de escalamiento horizontal para servidor externo "Uber".
-    1. **Source:**
-    2. **Stimulus:**
-    3. **Artifact:**
-    4. **Enviroment:**
-    5. **Response:** 
-    6. **Response Measure:** 
+    1. **Source:** Usuarios finales.
+    2. **Stimulus:** Interactuar con cualquier funcionalidad de la aplicación.
+    3. **Artifact:** Servidor externo Uber.
+    4. **Enviroment:** En condiciones de ejecucíon normales.
+    5. **Response:** El balanceador de carga, dependiendo del estado de la máquina, realiza la petición a dicha máquina.
+    6. **Response Measure:** La respuesta es aproximadamente 200ms más rápida que tener un solo servidor.
+
+[Link a video 1](gifs/Escalabilidad2-HerokuUber.mp4)
+
+
+[Link a video 2](gifs/Escalabilidad2-AWSUber.mp4)
 
 ### Disponibilidad
 #### Escenarios 
 Escenario de escalamiento horizontal para servidor externo "Uber".
 
-1. **Source:**
-2. **Stimulus:**
-3. **Artifact:**
-4. **Enviroment:**
-5. **Response:** 
-6. **Response Measure:**
+1. **Source:** Usuarios finales.
+2. **Stimulus:** Pedir un servicio.
+3. **Artifact:** Servidor externo Uber.
+4. **Enviroment:** En condiciones de falla de un servidor externo.
+5. **Response:** El balanceador de carga detecta que una máquina quedó inactiva.
+6. **Response Measure:** Ninguna petición realizada al servidor externo "Uber" es denegada.
 
----
+[Link a video](gifs/Disponibilidad1-AWSUber.mp4)
+
 
 1. **Source:**
 2. **Stimulus:**
@@ -158,23 +168,26 @@ Escenario de escalamiento horizontal para servidor externo "Uber".
 
 
 ### Rendimiento (Performance)
-#### Escenarios
- ---
-1. **Source:**
-2. **Stimulus:**
-3. **Artifact:**
-4. **Enviroment:**
-5. **Response:** 
-6. **Response Measure:**
+#### Escenarios 
+Escenario de aceptar servicio 
+1. **Source:** Usuario final (Conductor)
+2. **Stimulus:** El tiempo que toma entre aceptar un servicio un conductor y se le notifique a todos los conductores.
+3. **Artifact:** Servidores Frontend, servidor backend, servidores de bases de datos.
+4. **Enviroment:** Aplicación ejecutandose en condiciones normales.
+5. **Response:** El servicio tomado se desaparece del resto de conductores.
+6. **Response Measure:** Cuando un conductor acepta un servicio se demora menos de 1 segundo notificar al resto.
 
- ---
-1. **Source:**
-2. **Stimulus:**
-3. **Artifact:**
-4. **Enviroment:**
-5. **Response:** 
-6. **Response Measure:**
+[Link a video](gifs/Performance1-AcceptDriver.mp4)
 
+Escenario notificación que se ha aceptado un servicio
+1. **Source:** Usuario final (Usuario del aplicativo)
+2. **Stimulus:** El tiempo que toma un usuario en ver que un conductor ha tomado el servicio.
+3. **Artifact:** Servidores Frontend, servidor backend, servidores de bases de datos.
+4. **Enviroment:**Aplicación ejecutandose en condiciones normales.
+5. **Response:** El usuario cambia de pestaña al momneto de que un conductor acepete el servicio. 
+6. **Response Measure:** Cuando un conductor acepta un servicio, el usuario cambia de pestaña en menos de 1 segundo.
+
+[Link a video](gifs/Performance2-FinishService.mp4)
 
 ## Continuidad de desarrollo - Github
 El proyecto se está desarrollando en la organización [arsw-starsoft](http://github.com/arsw-starsoft)
