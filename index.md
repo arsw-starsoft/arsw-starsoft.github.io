@@ -130,6 +130,7 @@ Escenario de escalamiento vertical para la base de datos de la aplicación princ
     5. **Response:** Se guardan los servicios generados en la base de datos.
     6. **Response Measure:** La respuesta del servidor es <> más rápida con el escalamiento vertical.
 
+[Link al video](gifs/ScalabilityDB.mp4)
 
 2. **Horizontal:**
 Escenario de escalamiento horizontal para servidor externo "Uber".
@@ -140,10 +141,10 @@ Escenario de escalamiento horizontal para servidor externo "Uber".
     5. **Response:** El balanceador de carga, dependiendo del estado de la máquina, realiza la petición a dicha máquina.
     6. **Response Measure:** La respuesta es aproximadamente 200ms más rápida que tener un solo servidor.
 
-[Link a video 1](gifs/Escalabilidad2-HerokuUber.mp4)
+[Link al video 1](gifs/Escalabilidad2-HerokuUber.mp4)
 
 
-[Link a video 2](gifs/Escalabilidad2-AWSUber.mp4)
+[Link al video 2](gifs/Escalabilidad2-AWSUber.mp4)
 
 ### Disponibilidad
 #### Escenarios 
@@ -156,7 +157,7 @@ Escenario de escalamiento horizontal para servidor externo "Uber".
 5. **Response:** El balanceador de carga detecta que una máquina quedó inactiva.
 6. **Response Measure:** Ninguna petición realizada al servidor externo "Uber" es denegada.
 
-[Link a video](gifs/Disponibilidad1-AWSUber.mp4)
+[Link al video](gifs/Disponibilidad1-AWSUber.mp4)
 
 
 1. **Source:**
@@ -166,6 +167,7 @@ Escenario de escalamiento horizontal para servidor externo "Uber".
 5. **Response:** 
 6. **Response Measure:**
 
+[Link al video](gifs/cache-ok.mp4)
 
 ### Rendimiento (Performance)
 #### Escenarios 
@@ -177,7 +179,7 @@ Escenario de aceptar servicio
 5. **Response:** El servicio tomado se desaparece del resto de conductores.
 6. **Response Measure:** Cuando un conductor acepta un servicio se demora menos de 1 segundo notificar al resto.
 
-[Link a video](gifs/Performance1-AcceptDriver.mp4)
+[Link al video](gifs/Performance1-AcceptDriver.mp4)
 
 Escenario notificación que se ha aceptado un servicio
 1. **Source:** Usuario final (Usuario del aplicativo)
@@ -187,7 +189,7 @@ Escenario notificación que se ha aceptado un servicio
 5. **Response:** El usuario cambia de pestaña al momneto de que un conductor acepete el servicio. 
 6. **Response Measure:** Cuando un conductor acepta un servicio, el usuario cambia de pestaña en menos de 1 segundo.
 
-[Link a video](gifs/Performance2-FinishService.mp4)
+[Link al video](gifs/Performance2-FinishService.mp4)
 
 ## Continuidad de desarrollo - Github
 El proyecto se está desarrollando en la organización [arsw-starsoft](http://github.com/arsw-starsoft)
