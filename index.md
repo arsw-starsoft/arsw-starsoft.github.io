@@ -128,7 +128,7 @@ Escenario de escalamiento vertical para la base de datos de la aplicación princ
     3. **Artifact:** Servidor Backend, Servidores Frontend, servidor de base de datos.
     4. **Enviroment:** En condiciones de ejecución normales.
     5. **Response:** Se guardan los servicios generados en la base de datos.
-    6. **Response Measure:** La respuesta del servidor es <> más rápida con el escalamiento vertical.
+    6. **Response Measure:** La respuesta del servidor es, en promedio, 10ms más rápida con el escalamiento vertical.
 
 [Link al video](gifs/ScalabilityDB.mp4)
 
