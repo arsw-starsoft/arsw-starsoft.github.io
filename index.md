@@ -214,27 +214,27 @@ En el siguiente enlace podemos encontrar la página inicial de la aplicación, a
 
 [Pagina de incio](arswsynchdrive.herokuapp.com)
 
-![](/img/manualUsuario/inicio.png)
+![](img/manualUsuario/inicio.png)
 
 
 ### User
 * Cuando le damos la opción de Sign Up User encontraremos 3 casillas las cuales nos permitirán tener la información básica de la aplicación como lo es el username, el correo y la contraseña.
-![](/img/manualUsuario/registrarUsuario.png)
+![](img/manualUsuario/registrarUsuario.png)
 Cuando se le da la opción de Sign Up este nos avisara por medio de una notificación si ha sido exitosa o no. Si es exitosa nos redirigía hacia otro enlace que el cual contiene el respectivo login.
 
 * En el enlace de login podremos colocar el respectivo correo electrónico con el cual nos registramos y la contraseña, cuando seleccionamos el botón de login podremos acceder a la aplicación siendo usuario de las aplicaciones de transporte. 
-![](/img/manualUsuario/loginUser.png)
+![](img/manualUsuario/loginUser.png)
 
 * En el perfil del usuario podremos acceder a toda la información que se tiene dentro de la aplicación desde ahí podremos actualizar los datos suministrados.
-![](/img/manualUsuario/perfilUsuario.png)
+![](img/manualUsuario/perfilUsuario.png)
 
 * Si se desea realizar cualquier modificación de la información se debe acceder a los espacios asignados dependiendo de lo que se quiera modificar ya sea desde información básica como nombre hasta las cuentas asociadas que se pueden tener y luego accionar el botón de update user, Luego nos aparecerá un mensaje el cual nos dirá el estado de la petición, si es exitosa podremos ver que la información ha sido cambiada y cada vez que se intente acceder al perfil esta información se mantiene.
 
-![](/img/manualUsuario/ActualizarUser.png)
+![](img/manualUsuario/ActualizarUser.png)
 
 Por último, se podrá acceder a los servicios prestados por la aplicación donde el usuario podrá elegir los diferentes tipos de servicios que desea dependiendo de las aplicaciones seleccionadas los filtros necesarios y numero que desee pedir. y además podrá ver el mapa la ubicación donde se encuentra el usuario al momento de pedir un servicio.
 
-![](/img/manualUsuario/userServices.png)
+![](img/manualUsuario/userServices.png)
 
 
 
@@ -252,11 +252,11 @@ Cuando se le da la opción de Sign Up este nos avisara por medio de una notifica
 
 
 * Si se desea realizar cualquier modificación de la información se debe acceder a los espacios asignados dependiendo de lo que se quiera modificar ya sea desde información básica como nombre hasta las cuentas asociadas que se pueden tener y luego accionar el botón de update user, Luego nos aparecerá un mensaje el cual nos dirá el estado de la petición, si es exitosa podremos ver que la información ha sido cambiada y cada vez que se intente acceder al perfil esta información se mantiene.
-![](/img/manualUsuario/ActualizarDriver.png)
+![](img/manualUsuario/ActualizarDriver.png)
 
 Por último, se podrá acceder a los servicios prestados por la aplicación para el conductor, donde el podrá elegir los diferentes tipos de servicios que desea ofrecer en las aplicaciones que seleccione y también el tipo de servicios que desea ver con prioridad dependiendo de los filtros escogidos. Además podrá ver la posición exacta del conductor en el mapa que se ve en la imagen.
 
-![](/img/manualUsuario/driverServices.png)
+![](img/manualUsuario/driverServices.png)
 
 
 
