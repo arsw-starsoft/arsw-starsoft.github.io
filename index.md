@@ -234,7 +234,7 @@ Cuando se le da la opción de Sign Up este nos avisara por medio de una notifica
 
 * Se podrá acceder a los servicios prestados por la aplicación donde el usuario podrá elegir los diferentes tipos de servicios que desea dependiendo de las aplicaciones seleccionadas los filtros necesarios y numero que desee pedir. y además podrá ver el mapa la ubicación donde se encuentra el usuario al momento de pedir un servicio.
 
-![](img/manualUsuario/userServices.png)
+![](img/manualUsuario/userServices1.png)
 
 * Luego, de que el usuario seleccione el destino, los filtros que desee y el número de servicio, se pasará a seleccionar el botón de buscar servicio, al momento que se oprima el botón aparecer una imagen de carga y un botón de cancelar el servicio, el cual nos permitirá en dado caso que no se requerirá mas este viaje, poder realizar la cancelación de los servicios que hayamos creado. 
 
@@ -267,7 +267,7 @@ Cuando se le da la opción de Sign Up este nos avisara por medio de una notifica
 
 * Se podrá acceder a los servicios prestados por la aplicación para el conductor, donde el podrá elegir los diferentes tipos de servicios que desea ofrecer en las aplicaciones que seleccione y también el tipo de servicios que desea ver con prioridad dependiendo de los filtros escogidos. Además podrá ver la posición exacta del conductor en el mapa que se ve en la imagen.
 
-![](img/manualUsuario/driverServices.png)
+![](img/manualUsuario/driverServices1.png)
 
 * Cuando, el usuario publique el servicio y el driver tenga activo para aceptar el servicio, en la columna de la izquierda abajo de las aplicaciones seleccionadas por el driver, aparecerá los servicios que se encuentran disponibles para que cada driver los pueda aceptar.
 
