@@ -277,6 +277,10 @@ Cuando se le da la opción de Sign Up este nos avisara por medio de una notifica
 
 ![](img/manualUsuario/acceptDriver.png)
 
+* Una vez tanto como a un usuario como un conductor, se le ha aceptado o ha aceptado un servicio, en su historial se ven reflejados, realizando click en “My History” se pueden ver el ID del servicio, la aplicación a la que pertenece, el conductor/usuario del servicio, el destino y el precio.
+
+![](img/historial.JPG)
+
 ## Enlace a las Historias de Usuario
 [![Managed with Taiga.io](https://img.shields.io/badge/managed%20with-TAIGA.io-709f14.svg)](https://tree.taiga.io/project/qsarjp-proyectoarsw-starsoft/backlog "Managed with Taiga.io")
 
