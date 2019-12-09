@@ -25,6 +25,7 @@
 * [Atributos No Funcionales](#atributos-no-funcionales)
     * [Usabilidad](#usabilidad)
     * [Escalabilidad](#escalabilidad)
+    * [Seguridad](#seguridad)
     * [Disponibilidad](#disponibilidad)
     * [Rendimiento (Performance)](#rendimiento-(performance))
 * [Continuidad de desarrollo - Github](#continuidad-de-desarrollo---github)
