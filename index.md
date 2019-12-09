@@ -232,33 +232,50 @@ Cuando se le da la opción de Sign Up este nos avisara por medio de una notifica
 
 ![](img/manualUsuario/ActualizarUser.png)
 
-Por último, se podrá acceder a los servicios prestados por la aplicación donde el usuario podrá elegir los diferentes tipos de servicios que desea dependiendo de las aplicaciones seleccionadas los filtros necesarios y numero que desee pedir. y además podrá ver el mapa la ubicación donde se encuentra el usuario al momento de pedir un servicio.
+* Se podrá acceder a los servicios prestados por la aplicación donde el usuario podrá elegir los diferentes tipos de servicios que desea dependiendo de las aplicaciones seleccionadas los filtros necesarios y numero que desee pedir. y además podrá ver el mapa la ubicación donde se encuentra el usuario al momento de pedir un servicio.
 
 ![](img/manualUsuario/userServices.png)
 
+* Luego, de que el usuario seleccione el destino, los filtros que desee y el número de servicio, se pasará a seleccionar el botón de buscar servicio, al momento que se oprima el botón aparecer una imagen de carga y un botón de cancelar el servicio, el cual nos permitirá en dado caso que no se requerirá mas este viaje, poder realizar la cancelación de los servicios que hayamos creado. 
 
+![](img/manualUsuario/pedirUser.png)
+
+* Cuando se hayan aceptado cada uno de los servicios que se requirió, se pasará a otra pestaña la cual contenderá la información del conductor que acepto el último servicio.
+
+![](img/manualUsuario/acceptUser.png)
 
 ### Driver
+
 * Cuando le damos la opción de Sign Up Driver encontraremos 4 casillas las cuales nos permitirán tener la información básica de la aplicación como lo es el username, el correo, la contraseña y el numero de celular.
+
 ![](/img/manualUsuario/registrerDriver.png)
-Cuando se le da la opción de Sign Up este nos avisara por medio de una notificación si ha sido exitosa o no. Si es exitosa nos redirigía hacia otro enlace que el cual contiene el respectivo login.
+
+    Cuando se le da la opción de Sign Up este nos avisara por medio de una notificación si ha sido exitosa o no. Si es exitosa nos redirigía hacia otro enlace que el cual contiene el respectivo login.
 
 * En el enlace de login podremos colocar el respectivo correo electrónico con el cual nos registramos y la contraseña, cuando seleccionamos el botón de login podremos acceder a la aplicación siendo usuario de las aplicaciones de transporte. 
+
 ![](/img/manualUsuario/loginDriver.png)
 
 
 * En el perfil del driver podremos acceder a toda la información que se tiene dentro de la aplicación desde ahí podremos actualizar los datos suministrados.
+
 ![](/img/manualUsuario/driverProfile.png)
 
 
 * Si se desea realizar cualquier modificación de la información se debe acceder a los espacios asignados dependiendo de lo que se quiera modificar ya sea desde información básica como nombre hasta las cuentas asociadas que se pueden tener y luego accionar el botón de update user, Luego nos aparecerá un mensaje el cual nos dirá el estado de la petición, si es exitosa podremos ver que la información ha sido cambiada y cada vez que se intente acceder al perfil esta información se mantiene.
 ![](img/manualUsuario/ActualizarDriver.png)
 
-Por último, se podrá acceder a los servicios prestados por la aplicación para el conductor, donde el podrá elegir los diferentes tipos de servicios que desea ofrecer en las aplicaciones que seleccione y también el tipo de servicios que desea ver con prioridad dependiendo de los filtros escogidos. Además podrá ver la posición exacta del conductor en el mapa que se ve en la imagen.
+* Se podrá acceder a los servicios prestados por la aplicación para el conductor, donde el podrá elegir los diferentes tipos de servicios que desea ofrecer en las aplicaciones que seleccione y también el tipo de servicios que desea ver con prioridad dependiendo de los filtros escogidos. Además podrá ver la posición exacta del conductor en el mapa que se ve en la imagen.
 
 ![](img/manualUsuario/driverServices.png)
 
+* Cuando, el usuario publique el servicio y el driver tenga activo para aceptar el servicio, en la columna de la izquierda abajo de las aplicaciones seleccionadas por el driver, aparecerá los servicios que se encuentran disponibles para que cada driver los pueda aceptar.
 
+![](img/manualUsuario/serviciosDriver.png)
+
+* Cuando el driver seleccione el servicio que desea aceptar, aparecerá una nueva pestaña, en la cual confirmara que ha sido aceptado el servicio con la información principal, que es el destino, precio y customer.
+
+![](img/manualUsuario/acceptDriver.png)
 
 ## Enlace a las Historias de Usuario
 [![Managed with Taiga.io](https://img.shields.io/badge/managed%20with-TAIGA.io-709f14.svg)](https://tree.taiga.io/project/qsarjp-proyectoarsw-starsoft/backlog "Managed with Taiga.io")
