@@ -26,7 +26,7 @@
     * [Usabilidad](#usabilidad)
     * [Escalabilidad](#escalabilidad)
     * [Disponibilidad](#disponibilidad)
-    * [Rendimiento (Performance)](#rendimiento)
+    * [Rendimiento (Performance)](#rendimiento-(performance))
 * [Continuidad de desarrollo - Github](#continuidad-de-desarrollo---github)
 * [Despliegue - Heroku](#despliegue---heroku)
 * [Manual de Uso](#manual-de-uso)
@@ -143,8 +143,18 @@ Escenario de escalamiento horizontal para servidor externo "Uber".
 
 [Link al video 1](gifs/Escalabilidad2-HerokuUber.mp4)
 
-
 [Link al video 2](gifs/Escalabilidad2-AWSUber.mp4)
+
+### Seguridad
+#### Escenarios
+1. **Source:** Usuario no autorizado
+2. **Stimulus:** Acceder a un recurso de la API
+3. **Artifact:** Servidor Backend
+4. **Enviroment:** En condiciones normales
+5. **Response:** El servidor deniega la petición
+6. **Response Measure:** Se muestra un código de error HTTP 401 indicando que el usuario no está autenticado.
+
+![](img/unauth.JPG)
 
 ### Disponibilidad
 #### Escenarios 
@@ -160,12 +170,12 @@ Escenario de escalamiento horizontal para servidor externo "Uber".
 [Link al video](gifs/Disponibilidad1-AWSUber.mp4)
 
 
-1. **Source:**
-2. **Stimulus:**
-3. **Artifact:**
-4. **Enviroment:**
-5. **Response:** 
-6. **Response Measure:**
+1. **Source:** Usuarios finales
+2. **Stimulus:** Actualizar datos del usuario
+3. **Artifact:** Servidor Frontend y Servidor backend
+4. **Enviroment:** En condiciones de falla en la base de datos.
+5. **Response:** El cache del servidor backend funciona sin necesidad de guardar hasta que la base datos se recupere.
+6. **Response Measure:** El usuario no detecta ninguna anomalía al momento de actualizar su perfil mientras que la base de datos no tome más de 5 minutos para recuperarse.
 
 [Link al video](gifs/cache-ok.mp4)
 
